@@ -1,0 +1,16 @@
+ 1001  uname -sr && whoami
+ 1002  ‹sudo apt update && sudo apt upgrade -y
+ 1003  sudo apt update && sudo apt upgrade -y
+ 1004  brew update\nbrew install gcc
+ 1005  which g++ > compiler_trace.log && g++ --version | head -n 1 >> compiler_trace.log
+ 1006  clear
+ 1007  brew update
+ 1008  brew install gcc
+ 1009  which g++ > compiler_trace.log && g++ --version | head -n 1 >> compiler_trace.log
+ 1010  mkdir ~/recovery_ops
+ 1011  cd ~/recovery_ops
+ 1012  ls
+ 1013  curl -o system_raw.txt https://raw.githubusercontent.com/aryadiiptaa/YESS/refs/heads/main/system_raw.txt
+ 1014  head -n 1260 system_raw.txt | tail -n 11 > recovered_sector.txt
+ 1015  rm system_raw.txt
+ 1016  code .
