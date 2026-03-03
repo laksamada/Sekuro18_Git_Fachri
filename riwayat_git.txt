@@ -1,0 +1,6 @@
+*   e703477 merge v1 dan v2
+|\  
+| * 85ec8b6 versi 1
+* | bde211c versi 2
+|/  
+* 15cd107 inisiasi github
